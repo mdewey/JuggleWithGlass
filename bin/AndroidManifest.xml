@@ -10,32 +10,29 @@
 
     <application
         android:allowBackup="true"
-        
-        android:label="@string/app_name">
-          
-         
+        android:label="@string/app_name" >
         <activity
             android:name="com.dewey.glass.juggle.TricksActivity"
-             android:label="Tricks" >
+            android:label="Tricks" >
             <intent-filter>
-                <action
-                        android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
             </intent-filter>
-            <meta-data android:name="com.google.android.glass.VoiceTrigger"
-                       android:resource="@xml/voice_trigger" />
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger" />
         </activity>
-        
-            <activity
+        <activity
             android:name="com.dewey.glass.juggle.LearningActivity"
-             android:label="Learning" >
+            android:label="Learning" >
             <intent-filter>
-                <action
-                        android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
             </intent-filter>
-            <meta-data android:name="com.google.android.glass.VoiceTrigger"
-                       android:resource="@xml/voice_trigger" />
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger" />
         </activity>
-        
     </application>
 
 </manifest>

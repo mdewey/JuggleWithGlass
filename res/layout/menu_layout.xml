@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+  
+
+    <TextView
+        android:id="@+id/menu_list_text_view"
+        style="@style/TextMemoListStyle" />
+
+    <TextView
+        android:id="@+id/no_menu_text_view"
+        style="@style/TextStyle" />
+
+</FrameLayout>
