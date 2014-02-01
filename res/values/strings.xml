@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="app_name">Juggle With Glass</string>
+    <string name="empty_string"></string>
+    <string name="touchpad_touched">Touchpad touched</string>
+    <string name="glass_voice_trigger">let\'s juggle</string>
+    <string name="glass_voice_prompt">say something more</string>
+
+</resources>
