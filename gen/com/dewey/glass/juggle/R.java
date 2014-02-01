@@ -24,12 +24,15 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090002;
+        public static final int action_settings=0x7f090004;
+        public static final int menu_list_text_view=0x7f090002;
+        public static final int no_menu_text_view=0x7f090003;
         public static final int status=0x7f090001;
         public static final int title=0x7f090000;
     }
     public static final class layout {
         public static final int activity_home_screen=0x7f020000;
+        public static final int menu_layout=0x7f020001;
     }
     public static final class menu {
         public static final int home_screen=0x7f080000;
@@ -43,15 +46,6 @@ public final class R {
     }
     public static final class style {
         /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -63,13 +57,13 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
-        /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
-         */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppBaseTheme=0x7f070004;
+        public static final int MenuTheme=0x7f070000;
+        public static final int TextMemoListStyle=0x7f070001;
+        public static final int TextStyle=0x7f070002;
+        public static final int switchStyle=0x7f070003;
     }
     public static final class xml {
-        public static final int say_hello=0x7f030000;
+        public static final int voice_trigger=0x7f030000;
     }
 }
